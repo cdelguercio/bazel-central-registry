@@ -1,0 +1,14 @@
+{
+    "url": "https://github.com/Tradias/asio-grpc/archive/refs/tags/v2.9.3.tar.gz",
+    "integrity": "sha256-Pye+g976z2gQFzklgzAosNKpEOCL1MbXB2HxZtdE/8U=",
+    "strip_prefix": "asio-grpc-2.9.3",
+    "overlay": {
+        "BUILD.bazel": "sha256-Wbvarnpmqzw00M44kKGQpmJ3KIisUgJyVz5SjF1mHtg=",
+        "MODULE.bazel": "sha256-EqNadvCHRVcVe7fEAqBfRjpQSkrKqtaOM0C61eVpbgA="
+    },
+    "patches": {
+        "bazel_test_fixes.patch": "sha256-8OXqUbV4CLURSO+3stBqGPZeOcC1Bzwb6MNKosAXfr4=",
+        "disable_gpr_assert.patch": "sha256-o6qOlJwoYpzb2ThkQVw40fJ8DLPOLiLj97VLK1fG+Uc="
+    },
+    "patch_strip": 1
+}

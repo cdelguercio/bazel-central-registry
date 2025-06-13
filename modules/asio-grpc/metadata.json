@@ -6,13 +6,20 @@
             "github": "kgreenek",
             "name": "Kevin Greene",
             "github_user_id": 1295700
+        },
+        {
+            "email": "cdelguercio@gmail.com",
+            "github": "cdelguercio",
+            "name": "Chris Del Guercio",
+            "github_user_id": 1480795
         }
     ],
     "repository": [
         "github:Tradias/asio-grpc"
     ],
     "versions": [
-        "2.6.0"
+        "2.6.0",
+        "2.9.3"
     ],
     "yanked_versions": {}
 }
